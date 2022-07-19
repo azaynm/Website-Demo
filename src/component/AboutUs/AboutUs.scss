@@ -1,0 +1,24 @@
+img {
+    width: 100%
+}
+
+.about {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    text-align: left;
+    background-color: #1e1e1e;
+
+
+
+
+    h1 {
+        color: aqua;
+    }
+
+    p {
+        color: white;
+    }
+}

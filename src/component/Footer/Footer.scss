@@ -1,0 +1,144 @@
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid #ccc;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    
+    a{
+      color:rgb(133, 190, 255);  
+      text-decoration: none;
+
+      &:hover{
+        color: white;
+      }
+    }
+
+    &-upper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       
+        &-col1{
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            text-align: left;
+            width: 50%;
+            flex-wrap: wrap;
+           
+           
+        }
+
+        &-col2{
+            margin-top: 0;
+            padding-top: 0;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            width: 25%;
+            flex-wrap: wrap;
+            
+        }
+
+        &-col3{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-direction: column;
+            width: 25%;
+
+            flex-wrap: wrap;
+            
+            
+
+            &-row1{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                flex-wrap: wrap;
+                margin-top: 0;
+                padding-top: 0;
+            }
+
+            &-row2{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                margin-top: 10px;
+                margin-bottom: 20px;
+                flex-wrap: wrap;
+                
+            }
+        }
+    }
+    &-down{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+        &-col2{
+            display: flex;
+            justify-content: center;
+
+            .social-icon{
+                padding-left: 20px;
+                padding-bottom: 20px;
+                
+            }
+
+
+            #fb{
+                color: rgb(255, 255, 255);
+                padding: 10px;
+
+                &:hover {
+                    outline: none;
+                    border-color: #0f9116;
+                    color: rgb(57, 144, 170);
+                }
+            }
+
+            #insta{
+                color: rgb(255, 255, 255);
+                padding: 10px;
+
+                &:hover {
+                    outline: none;
+                    border-color: #0f9116;
+                    color: rgb(12, 189, 27);
+                }
+            }
+
+            #youtube{
+                color: rgb(255, 255, 255);
+                padding: 10px;
+
+                &:hover {
+                    outline: none;
+                    border-color: #0f9116;
+                    color: rgb(219, 25, 25);
+                }
+            }
+    
+            
+
+        }
+        
+    }
+}
